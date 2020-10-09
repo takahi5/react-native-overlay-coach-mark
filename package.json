@@ -1,6 +1,6 @@
 {
   "name": "react-native-overlay-coach-mark",
-  "version": "0.1.0",
+  "version": "0.8.0",
   "description": "UI component for coach mark which is often used in tutorials.",
   "main": "index.js",
   "types": "index.d.ts",
