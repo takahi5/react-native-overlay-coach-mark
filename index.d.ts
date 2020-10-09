@@ -1,19 +1,16 @@
 declare type CoachMarkProps = {
   /**
    * shape of hole
-   * default: "circle"
    */
   shape: "circle" | "rect";
 
   /**
    * position x
-   * default: 0
    */
   x: number;
 
   /**
    * position y
-   * default: 0
    */
   y: number;
 

@@ -59,11 +59,26 @@ export default function App() {
 }
 ```
 
-
 ## Properties
 
-| Prop | Default | Type | Description |
-|---|---|---| ---|
-|**`shape`**| `circle` | `string`|shape of the hole|
-|**`x`**| `0` | `number`| hole poxition of x direction |
-|**`y`**| `0` | `number`| hole poxition of y direction |
+| Prop                  | Default | Type     | Description                                           |
+| --------------------- | ------- | -------- | ----------------------------------------------------- |
+| **`shape`**           | -       | `string` | shape of the hole                                     |
+| **`x`**               | -       | `number` | hole position of x direction                          |
+| **`y`**               | -       | `number` | hole position of y direction                          |
+| **`backgroundColor`** | `#000`  | `string` | background color of overlay                           |
+| **`opacity`**         | `0.7`   | `number` | opacity of background overlay                         |
+| **`width`**           | `100`   | `number` | width of rectangle (\* only for `rect` shape)         |
+| **`height`**          | `100`   | `number` | height of rectangle (\* only for `rect` shape)        |
+| **`borderRadius`**    | `10`    | `number` | border radius of rectangle (\* only for `rect` shape) |
+| **`radius`**          | `100`   | `number` | radius of circle (\* only for `circle` shape)         |
+
+## Example
+
+See more detail in example directory.
+
+https://github.com/takahi5/react-native-overlay-coach-mark/tree/main/example
+
+## License
+
+[MIT License](http://opensource.org/licenses/mit-license.html).
