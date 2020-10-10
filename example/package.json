@@ -13,7 +13,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
-    "react-native-overlay-coach-mark": "git+ssh://git@github.com:takahi5/react-native-overlay-coach-mark.git",
+    "react-native-overlay-coach-mark": "^0.8.0",
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
